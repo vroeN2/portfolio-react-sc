@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.withShadow {
+  filter: drop-shadow(2vmax 2vmax 0 rgb(213, 255, 64));
+}

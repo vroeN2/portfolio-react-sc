@@ -22,11 +22,11 @@ export const MenuLink = styled.button`
   &:hover,
   &:focus {
     cursor: pointer;
-    animation: pulse 1s;
+    animation: pulseBlack 1s;
     box-shadow: 0 0 0 2em transparent;
   }
 
-  @keyframes pulse {
+  @keyframes pulseBlack {
     0% {
       box-shadow: 0 0 0 0 rgba(14, 14, 14);
     }

@@ -1,5 +1,7 @@
 import React from "react";
+import Breakbar from "../../components/Breakbar";
 import Navbar from "../../components/Navbar";
+import RoundedPhoto from "../../components/RoundedPhoto";
 import { BlackTitle, HomepageWrapper } from "./styled";
 
 type Props = {};
@@ -12,6 +14,10 @@ const Homepage = (props: Props) => {
       <BlackTitle>
         MACIEJ <br /> ZACHARIASZ
       </BlackTitle>
+
+      <RoundedPhoto />
+
+      <Breakbar />
     </HomepageWrapper>
   );
 };
