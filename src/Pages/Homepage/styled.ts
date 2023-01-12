@@ -18,4 +18,5 @@ export const BlackTitle = styled.h2`
   letter-spacing: -0.35vmax;
   line-height: 80%;
   margin-top: 5vmin;
+  z-index: 3;
 `;

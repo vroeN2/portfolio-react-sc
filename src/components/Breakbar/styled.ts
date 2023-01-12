@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const BreakbarWrapper = styled.div`
-  max-width: 100vw;
+  width: 100vw;
+  max-width: 100%;
   height: 10vmin;
-  background: black;
+  background: rgb(16, 16, 16);
   color: rgb(213, 255, 64);
   font-size: 3vmax;
   display: flex;

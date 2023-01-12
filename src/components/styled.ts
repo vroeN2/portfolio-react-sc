@@ -15,7 +15,7 @@ export const RoundBadgeWithArrow = styled(FlexDiv)<BadgePosition>`
   border-radius: 50%;
   border: 1vmin solid #1f1f1f;
   color: rgb(213, 255, 64);
-  background: black;
+  background: rgb(16, 16, 16);
   z-index: 3;
   position: absolute;
   top: ${(props) => props.top};
