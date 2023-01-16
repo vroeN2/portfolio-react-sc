@@ -29,7 +29,7 @@ const Navbar = (props: Props) => {
         {menuItems.map((item) => {
           const { name, link } = item;
           return (
-            <a href={`${link}`}>
+            <a href={`${link}`} key={name}>
               <MenuLink>{name}</MenuLink>
             </a>
           );

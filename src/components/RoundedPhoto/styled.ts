@@ -8,7 +8,7 @@ export const PhotoWrapper = styled.div`
   /* width: calc(100vw - 20vmin); */
   width: 60%;
   height: auto;
-  z-index: -1;
+  z-index: 3;
 `;
 
 export const CustomPhoto = styled.img`
@@ -16,4 +16,5 @@ export const CustomPhoto = styled.img`
   border-top-left-radius: 4vmax;
   border: 1px solid transparent;
   box-sizing: border-box;
+  z-index: 3;
 `;

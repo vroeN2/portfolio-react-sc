@@ -15,6 +15,7 @@ export const BreakbarWrapper = styled.div`
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
+  z-index: 8;
 
   & span {
     display: inline-block;

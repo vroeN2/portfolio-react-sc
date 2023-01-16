@@ -8,7 +8,11 @@ export const HomepageWrapper = styled.div`
   right: 0;
   height: 300vh;
   padding: 5vmin 10vmin;
-  background: linear-gradient(180deg, rgb(213, 255, 64) 60%, #1f1f1f 60%);
+  background: linear-gradient(
+    180deg,
+    rgb(213, 255, 64) 60%,
+    rgb(23, 23, 23) 60%
+  );
   z-index: -2;
 `;
 
@@ -18,5 +22,5 @@ export const BlackTitle = styled.h2`
   letter-spacing: -0.35vmax;
   line-height: 80%;
   margin-top: 5vmin;
-  z-index: 3;
+  z-index: 2;
 `;

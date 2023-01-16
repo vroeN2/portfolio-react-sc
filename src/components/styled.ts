@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-interface BadgePosition {
+export interface BadgePosition {
   right: string;
   top: string;
 }
